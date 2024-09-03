@@ -7,7 +7,7 @@ const PORT = 8000;
 app.get("/", (req, res) => {
     try {
         
-        res.send("Proyecto don doker.");
+        res.send("Subir proyecto prueba con docker!");
 
     } catch (error) {
         res.status(500).json(error);
